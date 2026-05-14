@@ -17,6 +17,7 @@ func game_over() -> void:
 	score_timer.stop()
 	mob_timer.stop()
 	hud.show_gameover()
+	
 	music.stop()
 	death_sound.play()
 
